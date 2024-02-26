@@ -6,7 +6,6 @@ app = Flask(__name__)
 with open("key.txt", "r") as f:
     example = f.read()
 
-
 # OpenAI API 인증
 openai.api_key=example
 
